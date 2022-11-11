@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+nav.navbar{
+    background-color: rgb(27, 27, 106);
+}
+
+div.nav{
+    font-family: 'Roboto', ;
+}
+a.nav{
+    font-size: 30px;
+    outline: none;
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+}
