@@ -1,15 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-nav.navbar{
-    background-color: rgb(27, 27, 106);
+@media screen and (min-width: 1450px){
+
+    nav.navbar{
+        background-color: rgb(27, 27, 106);
+        font-family: 'Roboto',
+    }
+    
+    a.nav{
+        font-size: 30px;
+        outline: none;
+        text-decoration: none;
+        color: rgb(143, 143, 143);
+        margin-left: 50px;
+    }
+
+    button.nav1{
+        font-size: 20px;
+        margin-left: 500px;
+    }
+
+    button.nav2{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
 }
 
-div.nav{
-    font-family: 'Roboto', ;
+@media screen and (max-width: 1449px){
+
+    nav.navbar{
+        background-color: rgb(27, 27, 106);
+        font-family: 'Roboto',
+    }
+    
+    a.nav{
+        font-size: 25px;
+        outline: none;
+        text-decoration: none;
+        color: rgb(143, 143, 143);
+        margin-left: 40px;
+    }
+
+    button.nav1{
+        font-size: 15px;
+        margin-left: 350px;
+    }
+
+    button.nav2{
+        font-size: 15px;
+        margin-left: 15px;
+    }
+
 }
-a.nav{
-    font-size: 30px;
-    outline: none;
-    text-decoration: none;
-    color: rgb(143, 143, 143);
+
+@media screen and (max-width: 1300px){
+
+    nav.navbar{
+        background-color: rgb(27, 27, 106);
+        font-family: 'Roboto',
+    }
+    
+    a.nav{
+        font-size: 25px;
+        outline: none;
+        text-decoration: none;
+        color: rgb(143, 143, 143);
+        margin-left: 30px;
+    }
+
+    button.nav1{
+        font-size: 15px;
+        margin-left: 200px;
+    }
+
+    button.nav2{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
 }
+
+@media screen and (max-width: 1000px){
+
+    nav.navbar{
+        background-color: rgb(27, 27, 106);
+        font-family: 'Roboto',
+    }
+    
+    a.nav{
+        font-size: 25px;
+        outline: none;
+        text-decoration: none;
+        color: rgb(143, 143, 143);
+        margin-left: 30px;
+    }
+
+    button.nav1{
+        font-size: 15px;
+        margin-left: 100px;
+    }
+
+    button.nav2{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+}
+
+
