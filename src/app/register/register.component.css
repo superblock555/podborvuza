@@ -1,0 +1,17 @@
+@media screen and (min-width: 500px) {
+
+    div.reg{
+        border: 2px solid black;
+        width: 500px;
+    }
+    
+}
+
+@media screen and (max-width: 499px) {
+
+    div.reg{
+        border: 2px solid black;
+        width: 200px;
+    }
+    
+}
