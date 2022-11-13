@@ -1,1 +1,9 @@
-<p>register works!</p>
+<div>
+    <p>Придумайте имя пользователя</p>
+    <input type="text" placeholder="Введите имя пользователя" [(ngModel)]="username">
+    <p>Введите почту</p>
+    <input type="email" placeholder="example@mail.ru" [(ngModel)]="email">
+    <p>Придумайте пароль</p>
+    <input type="password" placeholder="Введите пароль" [(ngModel)]="password">
+    <button (click)="register()">Зарегистрироваться</button>
+</div>
