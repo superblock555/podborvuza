@@ -5,5 +5,5 @@
     <input type="email" placeholder="example@mail.ru" [(ngModel)]="email">
     <p>Придумайте пароль</p>
     <input type="password" placeholder="Введите пароль" [(ngModel)]="password"><br>
-    <button routerLink="/home" (click)="register()">Зарегистрироваться</button>
+    <button (click)="register()" routerLink="/home" >Зарегистрироваться</button>
 </div>

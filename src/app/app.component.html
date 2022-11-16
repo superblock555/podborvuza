@@ -5,6 +5,6 @@
     <a class="nav" routerLink="/podbor" routerLinkActive="active-link"><b>Подбор вуза</b></a>
     <button *ngIf="!isLogged" class="nav1" routerLink="/login" >Войти</button>
     <button *ngIf="!isLogged" class="nav2" routerLink="/register">Зарегистрироваться</button>
-    <button *ngIf="isLogged" class="nav2" (click)="logout()">Выйти из аккаунта {{accountUsername}}</button>
+    <button *ngIf="isLogged" class="nav1" (click)="logout()">Выйти из аккаунта: {{accountUsername}}</button>
   </nav>
 </router-outlet>

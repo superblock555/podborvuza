@@ -1,17 +1,25 @@
-@media screen and (min-width: 500px) {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@media screen and (min-width: 800px) {
 
     div.reg{
         border: 2px solid black;
-        width: 500px;
+        width: 800px;
+        font-family: 'Roboto';
+        font-size: xx-large;
+        margin-left: auto;
+        margin-right: auto ;
     }
     
 }
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 799px) {
 
     div.reg{
         border: 2px solid black;
         width: 200px;
+        font-family: 'Roboto';
+        
     }
     
 }

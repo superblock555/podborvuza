@@ -15,7 +15,7 @@ export class AppComponent {
   }
 
   checkUser(): void {
-    let user_str = localStorage.getItem('user');
+    let user_str = localStorage.getItem('userinfo');
     if (user_str === null) {
       return;
     } else {

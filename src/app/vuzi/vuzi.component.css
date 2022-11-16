@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @media screen and (min-width: 900px) {
     
     div.all{
@@ -6,7 +7,8 @@
         border-right: 3px solid black;
         box-shadow:  black;
         margin-left: auto;
-        margin-right: auto;     
+        margin-right: auto;
+        font-family: 'Roboto';     
     }
     
     div.vuz{
@@ -15,6 +17,16 @@
         margin-right: auto;
         font-size: xx-large;
         border-bottom: 2px solid black;
+        font-family: 'Roboto';
+    }
+
+    table.tvuz{
+        width: 900px;
+        border-collapse: collapse;
+    }
+    td{
+        padding: 2px;
+        border: 2px solid black;
     }
 
 }
