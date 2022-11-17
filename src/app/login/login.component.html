@@ -1,1 +1,7 @@
-<p>login works!</p>
+<div class="reg">
+    <p>Введите имя пользователя</p>
+    <input type="text" placeholder="Введите имя пользователя" [(ngModel)]="username">
+    <p>Введите пароль</p>
+    <input type="password" placeholder="Введите пароль" [(ngModel)]="password"><br>
+    <button (click)="login()" routerLink="/home" >Войти</button>
+</div>
