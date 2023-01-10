@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { VuziComponent } from './vuzi.component';
+import { VuzComponent } from './vuz.component';
 
-describe('VuziComponent', () => {
-  let component: VuziComponent;
-  let fixture: ComponentFixture<VuziComponent>;
+describe('VuzComponent', () => {
+  let component: VuzComponent;
+  let fixture: ComponentFixture<VuzComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ VuziComponent ]
+      declarations: [ VuzComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(VuziComponent);
+    fixture = TestBed.createComponent(VuzComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

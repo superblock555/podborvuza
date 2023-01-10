@@ -6,18 +6,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { PodborComponent } from './podbor/podbor.component';
-import { VuziComponent } from './vuzi/vuzi.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { VuzComponent } from './vuz/vuz.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     PodborComponent,
-    VuziComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    VuzComponent
   ],
   imports: [
     BrowserModule,

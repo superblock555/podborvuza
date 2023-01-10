@@ -1,1 +1,11 @@
-<p>podbor works!</p>
+<div>
+    <input [(ngModel)]="searchSubj" placeholder="Enter subject">
+    <input [(ngModel)]="searchPoint" placeholder="Enter minimum point">
+    <button (click)="search()">Search</button>
+  </div>
+  
+  <div *ngFor="let vuz of vuzList">
+    <p>{{ vuz.vuzname }}</p>
+    <p>{{ vuz.subj }}</p>
+    <p>{{ vuz.point }}</p>
+  </div>
