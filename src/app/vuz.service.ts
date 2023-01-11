@@ -6,11 +6,13 @@ import { Injectable } from '@angular/core';
 export class VuzService {
 
   private vuzList: Vuz[] = [
-    {vuzname: 'University 1', subj: 'Math', point: 80},
-    {vuzname: 'University 2', subj: 'Physics', point: 75},
-    {vuzname: 'University 3', subj: 'Computer Science', point: 90},
-    {vuzname: 'University 4', subj: 'Math', point: 70},
-    {vuzname: 'University 5', subj: 'Physics', point: 85},
+    {vuzname: 'Мгу Механико-математический факультет "Математика"', subj: 'Физика', point: 291},
+    {vuzname: 'Мгу Механико-математический факультет "Механика" ', subj: 'Физика', point: 75},
+    {vuzname: 'Мгу Механико-математический факультет "Фундаментальная математика и математическая физика" ', subj: 'Физика', point: 90},
+    {vuzname: 'Мгу Физический факультет "Фундаментальная и прикладная физика" ', subj: 'Физика', point: 70},
+    {vuzname: 'Мгу Физический факультет "Астрономия" ', subj: 'Физика', point: 85},
+    {vuzname: 'Мгу Факультет вычислительной математики и кибернетики "Прикладная математика и информатика"', subj: 'Физика и информатика', point: 85},
+    {vuzname: 'Мгу Факультет вычислительной математики и кибернетики "Фундаментальная информатика и информационные технологии"', subj: 'Физика и информатика', point: 85},
   ];
 
   constructor() { }
@@ -27,5 +29,5 @@ export class VuzService {
 export class Vuz {
   vuzname: string = "";
   subj: string = "";
-  point: number = 0;
+  point: number = -1;
 }

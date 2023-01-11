@@ -1,11 +1,19 @@
-<div>
-    <input [(ngModel)]="searchSubj" placeholder="Enter subject">
-    <input [(ngModel)]="searchPoint" placeholder="Enter minimum point">
-    <button (click)="search()">Search</button>
+<div class="podbormain">
+  <div>
+    <p>Выбирите профильный предмет и введите суммарный балл ЕГЭ за все предметы:</p>
+    <select [(ngModel)]="searchSubj" placeholder="Выбирите предмет">
+      <option>Физика</option>
+      <option>Информатка</option>
+      <option>Физика и информатика</option>
+    </select>
+    <input [(ngModel)]="searchPoint" placeholder="">
+    <button (click)="search()">Поиск</button>
   </div>
+  <h3><b>Направления, на которые вы могли бв поступить в прошлом году:</b></h3>
   
-  <div *ngFor="let vuz of vuzList">
-    <p>{{ vuz.vuzname }}</p>
-    <p>{{ vuz.subj }}</p>
-    <p>{{ vuz.point }}</p>
+  <div class="result" *ngFor="let vuz of vuzList" class="result">
+    <p><b>{{ vuz.vuzname }}</b></p>
+    <p>Профильный предмет: {{ vuz.subj }}</p>
+    <p>Проходной балл: {{ vuz.point }}</p>
   </div>
+</div>
