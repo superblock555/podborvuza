@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+div.podbormain{
+    width: 80%;
+    box-shadow:  black;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto';
+    font-size: xx-large; 
+    z-index: 3;
+    -webkit-box-shadow: 0px 0px 8px 10px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 8px 10px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 8px 10px rgba(34, 60, 80, 0.2);
+}
+
+div.result{
+    border-top: 2px solid black;
+}
+
+
+.pselect {
+    width: 250px;
+    font-size: 22px;
+    color: #000000;
+    margin-right: 10px; 
+  }
+
+  .pinput{
+    width: 50px;
+    font-size: 22px;
+    color: #000000;
+    margin-right: 10px;
+  }
+
+  .btn{
+
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #3d3d3d;
+    background-color: #ffffff;
+    padding: 10px 30px;
+    border: solid #4a4a4a 2px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 0px;
+    transition : 564ms;
+    transform: translateY(0);
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .btn:hover{
+
+    transition : 564ms;
+    padding: 10px 30px;
+    transform : translateY(-0px);
+    background-color: #cfcfcf;
+    color: #000000;
+    border: solid 2px #000000;
+  }
+
+
+  .lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid rgb(31, 31, 31);
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: rgb(31, 31, 31) transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .success {
+    color: rgb(0, 105, 56);
+  }
+  .fail {
+    color: rgb(204, 0, 0);
+  }
+
+  .pod{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    margin-right: 0;
+    margin-left: 0;
+  }
